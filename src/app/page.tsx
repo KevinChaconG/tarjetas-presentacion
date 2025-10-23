@@ -1,5 +1,7 @@
 import { Persona } from "./Modelos/Persona";
 import Tarjeta from "./Components/tarjeta";
+import HookUseState from "./Components/HookUseState";
+import FormularioContador from "./Components/FormularioContador";
 
 export default function Home() {
 
@@ -61,10 +63,18 @@ export default function Home() {
             pais={item.pais}>
 
             </Tarjeta>
+
+            
             
           ))
+
+          
           
         }
+
+        <HookUseState></HookUseState>
+
+        <FormularioContador></FormularioContador>
 
 
       </main>
